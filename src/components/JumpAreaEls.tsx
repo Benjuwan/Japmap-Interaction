@@ -2,7 +2,7 @@ import { memo } from "react";
 
 export const JumpAreaEls = memo(() => {
     return (
-        <section className="md:grid md:grid-cols-2 md:gap-6 lg:grid-cols-3">
+        <section>
             {/* 北海道地方 */}
             <div className="mb-[2.5em] bg-[#00b4ed] rounded p-4 h-full" id="area-hokkaido">
                 <h3 className="font-bold text-lg mb-4 text-white">北海道地方</h3>
